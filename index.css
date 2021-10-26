@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(120deg,red,blue);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+section{
+    
+    padding: 30px;
+}
+section input{
+    border: none;
+    outline: none;
+    padding:10px ;
+    padding-right: 200px;
+    border-radius: 5px;
+}
+.user-list{
+    display: grid;
+    place-content: center;
+}
+
+.user-container{
+    position: relative;
+    background-color:rgba(225, 225, 225, 0.5);
+    width: 500px;
+    display: flex;
+    margin: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .4s all;
+}
+.user-container:hover{
+    transform: scale(1.1);
+    color: rgb(229, 226, 226);
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.user_name{
+    padding-left: 20px;
+}
+.text-con{
+    display: flex;
+}
+.text-con button{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 4px 6px;
+      
+}
+
+button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
